@@ -1,10 +1,9 @@
 //  Created by Nathanael Leyton on 11/15/18.
-//  rec11
+
 #include <iostream>
 #include <vector>
 #include <unordered_set>
 using namespace std;
-// Node to be used a part of linked list
 
 struct Node {
     Node(int data = 0, Node* next = nullptr) : data(data), next(next) {}
